@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5ADE090D8EB1AE5A8D51190 /* Pods_SingleViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82B4FA19B9DD80C4ADABF5B /* Pods_SingleViewApp.framework */; };
+		CA9B698C1EAF46BC00B751F3 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B698B1EAF46BC00B751F3 /* NetWork.m */; };
 		CAB79D991EAF3D3A003901E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB79D981EAF3D3A003901E5 /* main.m */; };
 		CAB79D9C1EAF3D3A003901E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB79D9B1EAF3D3A003901E5 /* AppDelegate.m */; };
 		CAB79D9F1EAF3D3A003901E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB79D9E1EAF3D3A003901E5 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		CAB79DA71EAF3D3A003901E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB79DA51EAF3D3A003901E5 /* LaunchScreen.storyboard */; };
 		CAB79DB21EAF3D3A003901E5 /* SingleViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB79DB11EAF3D3A003901E5 /* SingleViewAppTests.m */; };
 		CAB79DBD1EAF3D3A003901E5 /* SingleViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB79DBC1EAF3D3A003901E5 /* SingleViewAppUITests.m */; };
+		CAF8B01E1EB06566002B9780 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF8B01D1EB06566002B9780 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22DA19E72D8A11D79CF9792D /* Pods-SingleViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleViewApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleViewApp/Pods-SingleViewApp.release.xcconfig"; sourceTree = "<group>"; };
+		CA9B698A1EAF46BC00B751F3 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		CA9B698B1EAF46BC00B751F3 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
 		CAB79D941EAF3D3A003901E5 /* SingleViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB79D981EAF3D3A003901E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CAB79D9A1EAF3D3A003901E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,9 @@
 		CAB79DB81EAF3D3A003901E5 /* SingleViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB79DBC1EAF3D3A003901E5 /* SingleViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleViewAppUITests.m; sourceTree = "<group>"; };
 		CAB79DBE1EAF3D3A003901E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF8B01D1EB06566002B9780 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E82B4FA19B9DD80C4ADABF5B /* Pods_SingleViewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingleViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B5BD5F11068212F52500A1 /* Pods-SingleViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleViewApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingleViewApp/Pods-SingleViewApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF8B01E1EB06566002B9780 /* CoreLocation.framework in Frameworks */,
+				C5ADE090D8EB1AE5A8D51190 /* Pods_SingleViewApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A686E38ADF057268248DA215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6B5BD5F11068212F52500A1 /* Pods-SingleViewApp.debug.xcconfig */,
+				22DA19E72D8A11D79CF9792D /* Pods-SingleViewApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF3E2E632829B6D939648C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8B01D1EB06566002B9780 /* CoreLocation.framework */,
+				E82B4FA19B9DD80C4ADABF5B /* Pods_SingleViewApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA9B69891EAF466D00B751F3 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B698A1EAF46BC00B751F3 /* NetWork.h */,
+				CA9B698B1EAF46BC00B751F3 /* NetWork.m */,
+			);
+			name = NetWork;
+			sourceTree = "<group>";
+		};
 		CAB79D8B1EAF3D3A003901E5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				CAB79DB01EAF3D3A003901E5 /* SingleViewAppTests */,
 				CAB79DBB1EAF3D3A003901E5 /* SingleViewAppUITests */,
 				CAB79D951EAF3D3A003901E5 /* Products */,
+				A686E38ADF057268248DA215 /* Pods */,
+				BF3E2E632829B6D939648C23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +145,7 @@
 				CAB79D9B1EAF3D3A003901E5 /* AppDelegate.m */,
 				CAB79D9D1EAF3D3A003901E5 /* ViewController.h */,
 				CAB79D9E1EAF3D3A003901E5 /* ViewController.m */,
+				CA9B69891EAF466D00B751F3 /* NetWork */,
 				CAB79DA01EAF3D3A003901E5 /* Main.storyboard */,
 				CAB79DA31EAF3D3A003901E5 /* Assets.xcassets */,
 				CAB79DA51EAF3D3A003901E5 /* LaunchScreen.storyboard */,
@@ -147,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAB79DC11EAF3D3A003901E5 /* Build configuration list for PBXNativeTarget "SingleViewApp" */;
 			buildPhases = (
+				F245870FC822F78502CBEF33 /* [CP] Check Pods Manifest.lock */,
 				CAB79D901EAF3D3A003901E5 /* Sources */,
 				CAB79D911EAF3D3A003901E5 /* Frameworks */,
 				CAB79D921EAF3D3A003901E5 /* Resources */,
+				12D5D93EF30CA703E4EF0F03 /* [CP] Embed Pods Frameworks */,
+				B5B98A243B3CCF043BA0611C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +312,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12D5D93EF30CA703E4EF0F03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleViewApp/Pods-SingleViewApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B98A243B3CCF043BA0611C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleViewApp/Pods-SingleViewApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F245870FC822F78502CBEF33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAB79D901EAF3D3A003901E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,6 +367,7 @@
 			files = (
 				CAB79D9F1EAF3D3A003901E5 /* ViewController.m in Sources */,
 				CAB79D9C1EAF3D3A003901E5 /* AppDelegate.m in Sources */,
+				CA9B698C1EAF46BC00B751F3 /* NetWork.m in Sources */,
 				CAB79D991EAF3D3A003901E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,23 +515,27 @@
 		};
 		CAB79DC21EAF3D3A003901E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B5BD5F11068212F52500A1 /* Pods-SingleViewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SingleViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sy.Single.SingleViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		CAB79DC31EAF3D3A003901E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DA19E72D8A11D79CF9792D /* Pods-SingleViewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SingleViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sy.Single.SingleViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -507,6 +604,7 @@
 				CAB79DC31EAF3D3A003901E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAB79DC41EAF3D3A003901E5 /* Build configuration list for PBXNativeTarget "SingleViewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +613,7 @@
 				CAB79DC61EAF3D3A003901E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAB79DC71EAF3D3A003901E5 /* Build configuration list for PBXNativeTarget "SingleViewAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +622,7 @@
 				CAB79DC91EAF3D3A003901E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

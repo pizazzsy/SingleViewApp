@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "NetWork.h"
+#import <CoreLocation/CoreLocation.h>
+@interface ViewController : UIViewController<NetDelegate,CLLocationManagerDelegate>
+@property NetWork *KYNet;
+@property(nonatomic,strong)CLGeocoder*geocoder;
+@property(nonatomic,strong)CLLocationManager*locationManger;
 @end
 

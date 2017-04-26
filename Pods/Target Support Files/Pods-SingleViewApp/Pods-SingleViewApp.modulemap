@@ -1,0 +1,6 @@
+framework module Pods_SingleViewApp {
+  umbrella header "Pods-SingleViewApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
